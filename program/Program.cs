@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using MilesToFeet;
+using school;
 
 namespace program
 {
@@ -7,8 +10,9 @@ namespace program
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("hi agian");
             
+            convert.MilesToFeetMain();
+            printSchool.print();
         }
     }
 }
