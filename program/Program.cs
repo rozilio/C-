@@ -1,18 +1,14 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using MilesToFeet;
-using school;
+using API;
 
-namespace program
+namespace Program
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
-            convert.MilesToFeetMain();
-            printSchool.print();
+            {}
         }
     }
 }
